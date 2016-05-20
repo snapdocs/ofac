@@ -7,7 +7,6 @@ rescue Gem::LoadError, LoadError
   begin
     require 'active_record/connection_adapters/mysql_adapter'
   rescue Gem::LoadError, LoadError
-    puts 'Not using mysql, will use active record to load data'
   end
 end
 
