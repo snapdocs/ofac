@@ -1,3 +1,7 @@
+## Repo review Aug 2024 decision: Keep
+
+This is used in [snapdocs](https://github.com/snapdocs/snapdocs/blob/d3d6d924a1012ef7caf5c755b5d8b3783ed1db54/Gemfile#L225).
+
 = ofac
 
 * http://kevintyll.github.com/ofac
