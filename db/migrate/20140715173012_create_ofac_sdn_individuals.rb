@@ -1,4 +1,4 @@
-class CreateOfacSdnIndividuals < ActiveRecord::Migration
+class CreateOfacSdnIndividuals < ActiveRecord::Migration[4.2]
   def change
     create_table :ofac_sdn_individuals do |t|
       t.string :last_name, limit: 50
