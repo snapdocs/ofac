@@ -15,7 +15,8 @@ Gem::Specification.new do |s|
   s.post_install_message = File.readlines("PostInstall.txt").join("")
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["LICENSE", "Rakefile", "README.rdoc"]
-  s.test_files = Dir["test/**/*"]
+
+  s.required_ruby_version = ">= 3.2"
 
   s.add_dependency "rails", ">= 3.2"
 
